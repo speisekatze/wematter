@@ -1,0 +1,7 @@
+---
+wematter:
+    api: wekan
+    service:
+      port: 9000
+    database:
+      file: db/wematter.db

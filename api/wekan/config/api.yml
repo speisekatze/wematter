@@ -1,0 +1,13 @@
+---
+wekan:
+  endpoints:
+    login: /users/login
+    boards:
+    - list: /api/boards
+    - info: /api/boards/%board-id%/
+    lists:
+    - list: /api/boards/%board-id%/lists
+    - info: /api/boards/%board-id%/lists/%list-id%/
+    cards:
+    - list: /api/boards/%board-id%/lists/%list-id%/cards
+    - info: /api/boards/%board-id%/lists/%list-id%/cards/%card-id%/

@@ -1,0 +1,10 @@
+---
+wekan:
+  host: http://localhost/
+  bot:
+    name: value
+    password: value
+    mail: nomail@localhost.test
+    key: value
+  board: Test
+  list: todo
